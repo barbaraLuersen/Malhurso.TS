@@ -1,0 +1,22 @@
+.titulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titulo h3 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+@media (max-width: 768px) {
+  .titulo h3 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo h3 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,49 @@
+.time {
+  text-align: center;
+  padding: 32px;
+}
+
+.time h2 {
+  color: #fff;
+  font-size: 32px;
+  border-bottom: 3px solid;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: "Yeseva One", serif;
+}
+
+.time .colaboradores {
+  display: flex;
+  padding-top: 32px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .time {
+    padding: 20px; 
+  }
+
+  .time h2 {
+    font-size: 28px; 
+  }
+
+  .time .colaboradores {
+    padding-top: 20px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .time {
+    padding: 15px; 
+  }
+
+  .time h2 {
+    font-size: 24px; 
+  }
+
+  .time .colaboradores {
+    padding-top: 15px; 
+  }
+}

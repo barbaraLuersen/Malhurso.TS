@@ -1,0 +1,46 @@
+.campo-selecao {
+  width: 100%;
+  margin: 24px opx;
+}
+
+.campo-selecao label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #101820;
+}
+
+.campo-selecao select {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  border: none;
+  font-size: 24px;
+  padding: 24px;
+  box-sizing: border-box;
+  color: #101820;
+}
+
+@media (max-width: 768px) {
+  .campo-selecao label {
+    font-size: 18px; /* Reduzindo o tamanho da fonte para telas menores */
+  }
+
+  .campo-selecao select {
+    font-size: 18px; /* Reduzindo o tamanho da fonte para telas menores */
+    padding: 16px; /* Reduzindo o padding para telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .campo-selecao label {
+    font-size: 16px; /* Reduzindo ainda mais o tamanho da fonte para telas muito pequenas */
+  }
+
+  .campo-selecao select {
+    font-size: 16px; /* Reduzindo ainda mais o tamanho da fonte para telas muito pequenas */
+    padding: 12px; /* Reduzindo ainda mais o padding para telas muito pequenas */
+  }
+}

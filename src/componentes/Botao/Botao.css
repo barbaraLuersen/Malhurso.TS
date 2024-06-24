@@ -1,0 +1,30 @@
+.botao {
+  background-color: #c5bda1;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 20px;
+  border: none;
+  margin-top: 40px;
+  cursor: pointer;
+  color: #101820;
+}
+
+/*:hover indica qual o efeito visual no botão quando o mouse passa por ele*/
+.botao:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .botao {
+    font-size: 20px; /* Reduzindo o tamanho da fonte para telas menores */
+    padding: 16px; /* Reduzindo o padding para telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .botao {
+    font-size: 18px; /* Reduzindo ainda mais o tamanho da fonte para telas muito pequenas */
+    padding: 12px; /* Reduzindo ainda mais o padding para telas muito pequenas */
+  }
+}

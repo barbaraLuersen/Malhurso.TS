@@ -1,0 +1,46 @@
+.campo-texto {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.campo-texto label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #101820;
+}
+
+.campo-texto input {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  border: none;
+  font-size: 24px;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .campo-texto label {
+    font-size: 18px;
+  }
+
+  .campo-texto input {
+    font-size: 18px;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .campo-texto label {
+    font-size: 16px;
+  }
+
+  .campo-texto input {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
